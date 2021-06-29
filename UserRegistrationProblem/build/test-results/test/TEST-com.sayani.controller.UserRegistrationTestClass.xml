@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sayani.controller.UserRegistrationTestClass" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-29T06:46:22" hostname="DESKTOP-N66BMGP" time="0.114">
+<testsuite name="com.sayani.controller.UserRegistrationTestClass" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-29T06:51:31" hostname="DESKTOP-N66BMGP" time="0.045">
   <properties/>
-  <testcase name="givenfirstName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.09"/>
-  <testcase name="givenlastName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.005"/>
-  <testcase name="givenlastName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.002"/>
-  <testcase name="givenfirstName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.006"/>
+  <testcase name="givenphonenumber_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.03"/>
+  <testcase name="givenfirstName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.003"/>
+  <testcase name="givenphonenumber_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.002"/>
+  <testcase name="givenlastName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.001"/>
+  <testcase name="givenlastName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.001"/>
+  <testcase name="givenfirstName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
