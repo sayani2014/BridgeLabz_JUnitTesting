@@ -27,4 +27,21 @@ public class UserRegistrationTestClass {
         boolean result = userImpl.validateName("sayani");
         Assertions.assertFalse(result);
     }
+
+    /**
+     * Purpose : Validate Last Name with first letter starting with capital and has minimum 3 characters in it.
+     * Return true if the string value passes else return false
+     */
+
+    @Test
+    public void givenlastName_Proper_ShouldReturnTrue() {
+        boolean result = userImpl.validateName("Koley");
+        Assertions.assertTrue(result);
+    }
+
+    @Test
+    public void givenlastName_Proper_ShouldReturnFalse() {
+        boolean result = userImpl.validateName("koley");
+        Assertions.assertFalse(result);
+    }
 }

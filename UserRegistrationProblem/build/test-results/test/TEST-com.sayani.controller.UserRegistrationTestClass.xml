@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sayani.controller.UserRegistrationTestClass" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-29T06:38:07" hostname="DESKTOP-N66BMGP" time="0.057">
+<testsuite name="com.sayani.controller.UserRegistrationTestClass" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-29T06:46:22" hostname="DESKTOP-N66BMGP" time="0.114">
   <properties/>
-  <testcase name="givenfirstName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.05"/>
-  <testcase name="givenfirstName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.005"/>
+  <testcase name="givenfirstName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.09"/>
+  <testcase name="givenlastName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.005"/>
+  <testcase name="givenlastName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.002"/>
+  <testcase name="givenfirstName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
