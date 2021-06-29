@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sayani.controller.UserRegistrationTestClass" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-29T06:38:07" hostname="DESKTOP-N66BMGP" time="0.057">
+  <properties/>
+  <testcase name="givenfirstName_Proper_ShouldReturnTrue()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.05"/>
+  <testcase name="givenfirstName_Proper_ShouldReturnFalse()" classname="com.sayani.controller.UserRegistrationTestClass" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
