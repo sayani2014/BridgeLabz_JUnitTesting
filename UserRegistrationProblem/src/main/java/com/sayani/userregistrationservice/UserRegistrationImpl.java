@@ -53,7 +53,8 @@ public class UserRegistrationImpl {
 
     public boolean validatePhoneNumber( String number ) {
 
-        String regex = "(0|91)?[\s][0-9]{10}";
+        String regex = "(0|91)?[\\s][0-9]{10}";
+        //String regex = "^(0/91)[0-9]{10}$";  use this regex when user gives the input through main() since console does not allow space
         Pattern p = Pattern.compile(regex);
 
         if(number.isEmpty())
