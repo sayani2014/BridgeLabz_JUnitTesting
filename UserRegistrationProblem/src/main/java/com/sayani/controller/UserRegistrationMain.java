@@ -3,19 +3,21 @@
  *           User will input firstName, lastName, phoneNumber, email, password
  *           Validate the user inputs using regex
  *           If matches, return true else false
+ *           Create Customized Exception to throw in case of invalid exceptions
  *
  * @author : SAYANI KOLEY
- * @since : 29.06.2021
+ * @since : 30.06.2021
  */
 
 package com.sayani.controller;
 
+import com.sayani.exception.UserRegistrationException;
 import com.sayani.userregistrationmodel.UserRegistration;
 import com.sayani.userregistrationservice.UserRegistrationImpl;
 import com.sayani.userregistrationutil.Util;
 
 public class UserRegistrationMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UserRegistrationException {
         UserRegistrationImpl impl = new UserRegistrationImpl();
         UserRegistration userRegistration = null;
         Util utility = new Util();
@@ -26,14 +28,14 @@ public class UserRegistrationMain {
         userRegistration = utility.userMenu();
 
         //Validate First Name using REGEX
-        flag = impl.validateName(userRegistration.getFirstName());
+        flag = impl.validateFirstName(userRegistration.getFirstName());
         if(flag)
             System.out.println("First Name is valid");
         else
             System.out.println("First Name is invalid");
 
         //Validate Last Name using REGEX
-        flag = impl.validateName(userRegistration.getLastName());
+        flag = impl.validateLastName(userRegistration.getLastName());
         if(flag)
             System.out.println("Last Name is valid");
         else

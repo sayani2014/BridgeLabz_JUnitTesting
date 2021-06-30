@@ -20,21 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f4bfaec-98f4-425f-a65a-96fb832c3e96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sayani/controller/EmailTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/UserRegistrationProblem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sayani/exception/UserRegistrationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sayani/controller/UserRegistrationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/sayani/controller/UserRegistrationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sayani/userregistrationservice/UserRegistrationImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/sayani/userregistrationservice/UserRegistrationImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/sayani/controller/EmailTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/sayani/controller/EmailTesting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/sayani/controller/PasswordTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/sayani/controller/PasswordTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.sayani.controller.PasswordTesting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/sayani/controller/UserRegistrationTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/sayani/controller/UserRegistrationTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.sayani.controller.EmailTesting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.sayani.controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.sayani.controller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.sayani.controller.PasswordTesting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.sayani.controller.EmailTesting.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayani/controller/UserRegistrationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayani/controller/UserRegistrationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sayani/userregistrationservice/UserRegistrationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sayani/userregistrationservice/UserRegistrationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sayani/controller/EmailTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sayani/controller/EmailTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sayani/controller/PasswordTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sayani/controller/PasswordTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sayani/controller/UserRegistrationTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sayani/controller/UserRegistrationTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,21 +92,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.EmailTesting">
-    <configuration name="UserRegistrationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sayani.controller.UserRegistrationMain" />
-      <module name="UserRegistrationProblem.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sayani.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.PasswordTesting">
     <configuration name="EmailTesting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,12 +152,51 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="UserRegistrationTestClass.givenlastName_Proper_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.sayani.controller.UserRegistrationTestClass.givenlastName_Proper_ShouldReturnTrue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRegistrationTestClass.givenphonenumber_Proper_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.sayani.controller.UserRegistrationTestClass.givenphonenumber_Proper_ShouldReturnTrue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EmailTesting" />
         <item itemvalue="Gradle.PasswordTesting" />
+        <item itemvalue="Gradle.EmailTesting" />
         <item itemvalue="Gradle.UserRegistrationTestClass" />
-        <item itemvalue="Application.UserRegistrationMain" />
+        <item itemvalue="Gradle.UserRegistrationTestClass.givenlastName_Proper_ShouldReturnTrue" />
+        <item itemvalue="Gradle.UserRegistrationTestClass.givenphonenumber_Proper_ShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -179,23 +223,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="746" height="2" key="GridCell.Tab.0.bottom" timestamp="1625034884158">
+    <state x="836" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1625051184040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625034884158" />
-    <state width="746" height="2" key="GridCell.Tab.0.center" timestamp="1625034884158">
+    <state x="836" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1625051184040" />
+    <state width="744" height="2" key="GridCell.Tab.0.bottom" timestamp="1625054073666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625034884158" />
-    <state width="746" height="2" key="GridCell.Tab.0.left" timestamp="1625034884158">
+    <state width="744" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625054073666" />
+    <state width="744" height="2" key="GridCell.Tab.0.center" timestamp="1625054073666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625034884158" />
-    <state width="746" height="2" key="GridCell.Tab.0.right" timestamp="1625034884158">
+    <state width="744" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625054073666" />
+    <state width="744" height="2" key="GridCell.Tab.0.left" timestamp="1625054073666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625034884158" />
+    <state width="744" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625054073666" />
+    <state width="744" height="2" key="GridCell.Tab.0.right" timestamp="1625054073666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="744" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625054073666" />
   </component>
 </project>

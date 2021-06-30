@@ -1,5 +1,6 @@
 package com.sayani.controller;
 
+import com.sayani.exception.UserRegistrationException;
 import com.sayani.userregistrationservice.UserRegistrationImpl;
 import org.junit.Assert;
 import org.junit.Test;
@@ -37,13 +38,15 @@ public class PasswordTesting {
      *            Atleast 1 upper case character
      *            Atleast 1 numeric value
      *            Exactly 1 special character
-     * Return true if the string value passes else return false
      */
 
     @Test
-    public void givenPassword_shouldReturnTrueOrFalse() {
-        UserRegistrationImpl userImpl = new UserRegistrationImpl();
-        boolean result = userImpl.validatePassword(this.password);
-        Assert.assertEquals(expectedResult, result);
+    public void givenPassword_IsValidOrInvalid() throws UserRegistrationException {
+        try {
+            UserRegistrationImpl userImpl = new UserRegistrationImpl();
+            userImpl.validatePassword(this.password);
+        } catch ( UserRegistrationException e) {
+            Assert.assertEquals(UserRegistrationException.ExceptionType.INVALID_PASSWORD, e.type);
+        }
     }
 }

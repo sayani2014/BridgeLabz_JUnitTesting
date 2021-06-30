@@ -1,5 +1,6 @@
 package com.sayani.controller;
 
+import com.sayani.exception.UserRegistrationException;
 import com.sayani.userregistrationservice.UserRegistrationImpl;
 import org.junit.Assert;
 import org.junit.Test;
@@ -49,13 +50,15 @@ public class EmailTesting {
 
     /**
      * Purpose : Validate Emails using regex
-     * Return true if the string value passes else return false
      */
 
     @Test
-    public void givenEmail_shouldReturnTrueOrFalse() {
-        UserRegistrationImpl userImpl = new UserRegistrationImpl();
-        boolean result = userImpl.validateEmail(this.email);
-        Assert.assertEquals(expectedResult, result);
+    public void givenEmail_IsValidOrInvalid() throws UserRegistrationException {
+        try {
+            UserRegistrationImpl userImpl = new UserRegistrationImpl();
+            userImpl.validateEmail(this.email);
+        } catch ( UserRegistrationException e) {
+            Assert.assertEquals(UserRegistrationException.ExceptionType.INVALID_EMAIL_ID, e.type);
+        }
     }
 }
