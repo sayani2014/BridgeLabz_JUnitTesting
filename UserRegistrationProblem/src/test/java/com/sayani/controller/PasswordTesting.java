@@ -34,6 +34,9 @@ public class PasswordTesting {
     /**
      * Purpose : Validate Password using regex
      * Condition: Length should have minimum 8 characters in it.
+     *            Atleast 1 upper case character
+     *            Atleast 1 numeric value
+     *            Exactly 1 special character
      * Return true if the string value passes else return false
      */
 
