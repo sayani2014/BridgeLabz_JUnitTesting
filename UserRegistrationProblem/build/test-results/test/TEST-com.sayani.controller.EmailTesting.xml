@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sayani.controller.EmailTesting" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-06-30T06:44:21" hostname="DESKTOP-N66BMGP" time="0.034">
+  <properties/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[0]" classname="com.sayani.controller.EmailTesting" time="0.004"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[1]" classname="com.sayani.controller.EmailTesting" time="0.001"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[2]" classname="com.sayani.controller.EmailTesting" time="0.001"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[3]" classname="com.sayani.controller.EmailTesting" time="0.001"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[4]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[5]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[6]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[7]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[8]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[9]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[10]" classname="com.sayani.controller.EmailTesting" time="0.001"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[11]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[12]" classname="com.sayani.controller.EmailTesting" time="0.002"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[13]" classname="com.sayani.controller.EmailTesting" time="0.001"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[14]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[15]" classname="com.sayani.controller.EmailTesting" time="0.006"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[16]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[17]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[18]" classname="com.sayani.controller.EmailTesting" time="0.001"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[19]" classname="com.sayani.controller.EmailTesting" time="0.001"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[20]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <testcase name="givenEmail_shouldReturnTrueOrFalse[21]" classname="com.sayani.controller.EmailTesting" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
