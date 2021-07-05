@@ -4,28 +4,26 @@
  *           Validate the user inputs using regex
  *           If matches, return true else false
  *           Create Customized Exception to throw in case of invalid exceptions
+ *           Use Lambda Function to validate First Name, Last Name, Email, Mobile, and Password
  *
  * @author : SAYANI KOLEY
- * @since : 30.06.2021
+ * @since : 05.07.2021
  */
 
 package com.sayani.controller;
 
 import com.sayani.exception.UserRegistrationException;
 import com.sayani.userregistrationmodel.UserRegistration;
+import com.sayani.userregistrationservice.ImplementationUsingInterface;
 import com.sayani.userregistrationservice.UserRegistrationImpl;
 import com.sayani.userregistrationutil.Util;
 
 public class UserRegistrationMain {
-    public static void main(String[] args) throws UserRegistrationException {
-        UserRegistrationImpl impl = new UserRegistrationImpl();
-        UserRegistration userRegistration = null;
-        Util utility = new Util();
-        boolean flag = false;
+    static boolean flag = false;
+    static UserRegistration userRegistration = null;
 
-        //User will input firstName, lastName, phoneNumber, email, password
-        System.out.println("Please enter the following details");
-        userRegistration = utility.userMenu();
+    public static void validateUserEntries() throws UserRegistrationException {
+        UserRegistrationImpl impl = new UserRegistrationImpl();
 
         //Validate First Name using REGEX
         flag = impl.validateFirstName(userRegistration.getFirstName());
@@ -61,5 +59,62 @@ public class UserRegistrationMain {
             System.out.println("Password is valid");
         else
             System.out.println("Password is invalid");
+    }
+
+    public static void validateUserEntriesUsingLambda() throws UserRegistrationException {
+
+        ImplementationUsingInterface implInterface = new ImplementationUsingInterface();
+
+        //Validate First Name using REGEX
+        flag = implInterface.fNameValidtion.validateEntries(userRegistration.getFirstName());
+        if(flag)
+            System.out.println("First Name is valid");
+        else
+            System.out.println("First Name is invalid");
+
+        //Validate Last Name using REGEX
+        flag = implInterface.lNameValidtion.validateEntries(userRegistration.getLastName());
+        if(flag)
+            System.out.println("Last Name is valid");
+        else
+            System.out.println("Last Name is invalid");
+
+        //Validate Mobile Number using REGEX
+        flag = implInterface.phoneNumberValidtion.validateEntries(userRegistration.getMobileNumber());
+        if(flag)
+            System.out.println("Mobile number is valid");
+        else
+            System.out.println("Mobile number is invalid");
+
+        //Validate Email Address using REGEX
+        flag = implInterface.emailValidtion.validateEntries(userRegistration.getEmailAddress());
+        if(flag)
+            System.out.println("Email Address is valid");
+        else
+            System.out.println("Email Address is invalid");
+
+        //Validate Password using REGEX
+        flag = implInterface.passwordValidtion.validateEntries(userRegistration.getPassword());
+        if(flag)
+            System.out.println("Password is valid");
+        else
+            System.out.println("Password is invalid");
+
+    }
+
+    public static void main(String[] args) throws UserRegistrationException {
+
+        Util utility = new Util();
+
+        //User will input firstName, lastName, phoneNumber, email, password
+        System.out.println("Please enter the following details");
+        userRegistration = utility.userMenu();
+
+        //Validate entries without the lambda expression
+        //validateUserEntries();
+
+        //Validate entries with lambda expression
+        validateUserEntriesUsingLambda();
+
     }
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sayani.controller.LastNameTesting" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-01T02:46:54" hostname="DESKTOP-N66BMGP" time="0.011">
+  <properties/>
+  <testcase name="givenlastName_IsValidOrInvalid[0]" classname="com.sayani.controller.LastNameTesting" time="0.004"/>
+  <testcase name="givenlastName_IsValidOrInvalid[1]" classname="com.sayani.controller.LastNameTesting" time="0.0"/>
+  <testcase name="givenlastName_IsValidOrInvalid[2]" classname="com.sayani.controller.LastNameTesting" time="0.0"/>
+  <testcase name="givenlastName_IsValidOrInvalid[3]" classname="com.sayani.controller.LastNameTesting" time="0.0"/>
+  <testcase name="givenlastName_IsValidOrInvalid[4]" classname="com.sayani.controller.LastNameTesting" time="0.003"/>
+  <testcase name="givenlastName_IsValidOrInvalid[5]" classname="com.sayani.controller.LastNameTesting" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
