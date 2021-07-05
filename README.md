@@ -15,3 +15,4 @@
 5. JUnit testing for the sample emails
 6. Refactor the Code to throw custom exceptions in case of Invalid User Details
     - Test Cases should take in Customized Exception for Invalid First Name, Last Name, Email, Mobile, and Password
+7. Refactor the Code to use Lambda Function to validate First Name, Last Name, Email, Mobile, and Password
